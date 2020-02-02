@@ -13,6 +13,11 @@
             margin: 146px;
             transform: scale(3);
         }
+
+        .links {
+            position: relative;
+            top: 40px;
+        }
     </style>
 </head>
 
@@ -24,8 +29,13 @@
                     <span>{{ $ticket }}</span>
                 </div>
             </div>
+            <div class="links">
+                <a href="https://github.com/doug7410/sunshine-php-2020">https://github.com/doug7410/sunshine-php-2020</a>
+            </div>
         </div>
+
     </div>
+
 </body>
 
 </html>

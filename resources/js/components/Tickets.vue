@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1>Sunshine PHP 2020</h1>
-        <h3>Serverless Talk Raffle</h3>
+        <h1 class="blue">https://raffle.dougsteinberg.net</h1>
+        <h3>Sunshine PHP 2020 - Serverless Talk Raffle</h3>
         <div class="mix">
             <button class="btn btn--stripe btn--large" @click="mixUpTickets()">
                 Mix them up
@@ -104,5 +104,13 @@
 
     h3 {
         margin-bottom: 2.5em;
+    }
+
+    h1 {
+        margin-bottom: 1em;
+    }
+
+    .blue {
+        color: #5252b9;
     }
 </style>
